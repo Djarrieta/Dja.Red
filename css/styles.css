@@ -1,0 +1,47 @@
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+  }
+  main {
+    flex: 1 0 auto;
+  }
+  #nav-mobile li :hover{
+      background-color: rgb(155,0,0);
+  }
+  .navdj{
+      height: 110px;
+  }
+  .brand-logo{
+      width: 150px;
+  }
+#nav-mobile{
+    height: 100px;
+    display: flex;
+    justify-content: center;
+}
+.hero{
+    margin-top: 10px;
+}
+.hero img{
+    height: 300px;
+}
+.hero-about{
+    text-align: left;
+    font-size: 20px;
+}
+.btn-idiom{
+    background-color: rgb(155,0,0);
+    height: 35px;
+    width: 100px;
+}
+nav i, nav [class^="mdi-"], nav [class*="mdi-"], nav i.material-icons {
+    display: block;
+    font-size: 24px;
+    height: 56px;
+    line-height: unset;
+}
+nav ul li{
+    display: flex;
+    align-content: center;
+}
