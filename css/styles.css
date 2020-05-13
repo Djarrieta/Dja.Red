@@ -45,3 +45,11 @@ nav ul li{
     display: flex;
     align-content: center;
 }
+.servicesDj{
+    background-color: rgb(0, 0, 0);
+}
+.card-title{
+    font-size: larger;
+}
+
+
