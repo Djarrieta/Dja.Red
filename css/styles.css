@@ -29,5 +29,18 @@ height: 100px;
     margin-top: 13px;
 }
 
+.imgDj {
+    margin: 0px;
+    padding:0;
+}
+.Hero-parrDj{
+    padding-top: 20px;
+}
+.Hero-nameDJ{
+    color:rgb(155,0,0) ;
+}
+.btn{
+    background-color: rgb(155,0,0);
+}
 
 
