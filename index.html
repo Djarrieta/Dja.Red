@@ -1,22 +1,134 @@
 ﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dja.Red</title>
+    <!-- favicon -->
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;1,100;1,300;1,400;1,500&display=swap" rel="stylesheet">
+    <!-- css -->
+    <link rel="stylesheet" href="./css/styles.css">
+</head>
+<body>
+    <header>
+        <div class="section">
+            <div class="header--menuSandwitch">
+                <a id="header--menuSandwitch" href="#"><img class='header--menuSandwitch__img' src="./icon/menu_64px.png" alt=""></a>
+            </div>
+            <div class="header--menuHorizontal">
+                <lu class="header--lu">
+                    <li class="item"><a href="" >Español</a></li>
+                    <li class="item"><a href="" >Certificates</a></li>
+                    <li class="item"><a href="" >Services</a></li>
+                </lu>
+            </div>
+            <div class="header--logo">
+                <a href="#">
+                    <img class='header--logo__img' src="./img/LogoBlack.svg" alt="">
+                </a>
+            </div>
+        </div>
+        <div id="menuDesplegable" class="menuDesplegable">
+            <lu class="header--lu">
+                <li class="menuDesplegable--item"><a href="" >Español</a></li>
+                <li class="menuDesplegable--item"><a href="" >Certificates</a></li>
+                <li class="menuDesplegable--item"><a href="" >Services</a></li>
+                <li class="menuDesplegable--item"><a href="" >Services</a></li>
+            </lu>
+        </div>
+    </header>
+    <main>
+        <section class="hero">
+            <div class='hero--img'>
+                <img src="./img/Hero-img.jpg" alt="">
+            </div>
+            <div class="hero--parrafo">
+                <p class="Hero-parrDj right-align">
+                    <strong class="flow-text Hero-nameDJ">I'm Darío Arrieta, mechanical engineer. </strong>My eight years as an engineering professional at a scaffold rental company has equipped me with substantial problem-solving skills. Working with people and technology I have managed subordinates in structure assembly and disassembly, modelled structures analytically with softwares such as Solidworks and Sketchup and improved employees’ functions in using ISO9001 standards and developing desktop software applications with JS, C#, Power BI and VBA.
+                </p>
+            </div>
+        </section>
+
+        <div class="services">
+            <div class="title">
+                <div class="service--title__decoration"></div>
+                <h3>SERVICIOS</h3>
+                <div class="services--container">
+                    <div class="card">
+                        <div id="card1" class="card--principal">
+                            <img src="./img/1.png" alt="">
+                            <p class="card--text">Everything you need for your company. Email, domain, hosting, UX and UI desing and more... Pay per month. </p>
+                        </div>
+                        <div id="card1Secundario" class="card--secundario">
+                            <span class="card--secundario__title">Web Developing</span>
+                            <p>Don't worrie about what a domain, hosting, branding or UX desing is. You only need to know that Dja.Red is going to do everithing you need until you have an email name@company.com and professional website with 3 changes allowed per month. <br> <br> <strong class="flow-text">Just $100 USD per month.</strong> </p>
+                            <br> <a target="_blank" href="http://fallprosystem.com.co/">Ex: Fallpro System</a>
+                            <br> <a target="_blank" href="https://djarrieta.github.io/Games-Simon-says/">Ex: Dja Games</a>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <div id="card2" class="card--principal">
+                            <img src="./img/1.png" alt="">
+                            <p class="card--text">Everything you need for your company. Email, domain, hosting, UX and UI desing and more... Pay per month. </p>
+                        </div>
+                        <div id="card2Secundario" class="card--secundario">
+                            <span class="card--secundario__title">Web Developing</span>
+                            <p>Don't worrie about what a domain, hosting, branding or UX desing is. You only need to know that Dja.Red is going to do everithing you need until you have an email name@company.com and professional website with 3 changes allowed per month. <br> <br> <strong class="flow-text">Just $100 USD per month.</strong> </p>
+                            <br> <a target="_blank" href="http://fallprosystem.com.co/">Ex: Fallpro System</a>
+                            <br> <a target="_blank" href="https://djarrieta.github.io/Games-Simon-says/">Ex: Dja Games</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+        <a id="floatingButton" class="floatingButton" href="#"><img src="./icon/administrator_male_50px.png" alt=""></a>
+        <div id="menuFlotante" class="menuFlotante">
+            <a target='_blank' href="https://www.linkedin.com/in/dario-jose-arrieta-deavila-ba49307b/">
+                <img class='menuFlotante__img' src="./icon/linkedin_60px.png" alt="">
+            </a> 
+            <a target='_blank' href="https://github.com/Djarrieta/">
+                <img class='menuFlotante__img' src="./icon/github_64px.png" alt="">
+            </a>
+            <a target='_blank' href="https://wa.me/573008718217">
+                <img class='menuFlotante__img' src="./icon/whatsapp_80px.png" alt="">
+            </a>
+        </div>
+    </main>
+
+ 
+<!--     <footer>
+
+    </footer> -->
+    <!-- Local -->
+    <script src="/js/js.js"></script>
+</body>
+</html>
+
+
+<!-- 
+<!DOCTYPE html>
 <html lang="es">
     <head>
         <title>Dja.Red</title>
-        <!-- avoid letter small on small devices -->
+        <!-- avoid letter small on small devices 
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="shortcut icon" href="/img/FavIcon.svg" type="image/x-icon">
         <meta charset="UTM-8"/>
-        <!-- favicon -->
+        <!-- favicon 
         <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
-        <!--Import Google Icon Font-->
+        <!--Import Google Icon Font
         <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-        <!--CSS --> 
+        <!--CSS  
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
         <link rel="stylesheet" href="./css/styles.css">
     </head>
     <body>
         <main container>
-            <!-- header -->
+            <!-- header 
             <nav class="headerDj black">
                 <div class="nav-wrapper container">
                     
@@ -32,7 +144,7 @@
 
                 </div>  
             </nav>
-            <!-- sidebar -->
+            <!-- sidebar 
             <ul class="sidenav left" id="mobile-demo">
                 <li><a href="#">Español</a></li>
                 <li><a href="#services">Services</a></li>
@@ -40,25 +152,25 @@
                 <li><a href="#contact">Contact</a></li>
                 <li><a target="_blank" href="/docs/CV - Dario 2020 EN.pdf">HV</a></li>
             </ul>
-            <!--action button-->
+            <!--action button
             <div class="fixed-action-btn toolbar">
                 <a class="btnDJ btn-floating btn-large">
                 <i class="large material-icons">contact_mail</i>
                 </a>
                 <ul class="black">
-                    <!-- GitHub -->
+                    <!-- GitHub 
                     <li><a target="_blank" href="https://github.com/Djarrieta/" class="btn-floating"><i><img class="btn-ul-DJ" src="/img/github_32px.png" alt="WhatsApp"></i></a></li>
-                    <!-- LinkedIn -->
+                    <!-- LinkedIn 
                     <li><a target="_blank" href="https://www.linkedin.com/in/dario-jose-arrieta-deavila-ba49307b/" class="btn-floating"><i><img class="btn-ul-DJ" src="/img/linkedin_circled_30px.png" alt="WhatsApp"></i></a></li>
-                    <!-- Torre -->
+                    <!-- Torre 
                     <li><a target="_blank" href="https://bio.torre.co/es/dariojosearrieta" class="btn-floating"><i><img class="btn-ul-DJ" src="/img/Torre_32px.png" alt="WhatsApp"></i></a></li>
-                    <!-- WhatsApp -->
+                    <!-- WhatsApp 
                     <li><a target="_blank" href="https://wa.me/573008718217" class="btn-floating"><i><img class="btn-ul-DJ" src="/img/whatsapp_32px.png" alt="WhatsApp"></i></a></li>
-                    <!-- back -->
+                    <!-- back 
                     <li ><a href="#" class="btn-floating"><i class="material-icons">contact_mail</i></a></li>
                 </ul>
             </div>
-            <!-- hero -->
+            <!-- hero 
             <div class="container">
                 <div class="row section">
                     <div class="col s12 m12 l6 center-aling ">
@@ -71,11 +183,11 @@
                     </div>
                 </div>
             </div>
-            <!-- services -->
+            <!-- services 
             <div class="container">
                 <blockquote><H4>SERVICES</H4></blockquote>
                 <div class="row">
-                    <!-- Web Developing -->
+                    <!-- Web Developing 
                     <div class="col s12 m12 l4">
                         <div class="card hoverable">
                             <div class="card-image waves-effect waves-block waves-light">
@@ -93,7 +205,7 @@
                             </div>
                         </div>
                     </div>
-                    <!-- Data Analysis -->
+                    <!-- Data Analysis 
                     <div class="col s12 m12 l4">
                         <div class="card hoverable">
                             <div class="card-image waves-effect waves-block waves-light">
@@ -110,7 +222,7 @@
                             </div>
                         </div>
                     </div>
-                    <!-- Desktop Applications -->
+                    <!-- Desktop Applications 
                     <div class="col s12 m12 l4">
                         <div class="card hoverable">
                             <div class="card-image waves-effect waves-block waves-light">
@@ -130,16 +242,16 @@
                 </div>
             </div>
         </main>
-        <!-- Footer -->
+        <!-- Footer 
         <footer id="contact" class="page-footer grey darken-3 z-depth-2">
             <div class="container">
               <div class="row">
-                  <!-- formulario -->
+                  <!-- formulario 
                 <div class="col l4 s12">
                     <h5 class="white-text">Let's do something together!</h5>
 
                 </div>
-                <!-- Contacto -->
+                <!-- Contacto 
                 <div class="col l6 offset-l2 s12">
                     <h5 class="white-text">Contact</h5>
                     <div class="row">
@@ -175,21 +287,23 @@
               </div>
             </div>
         </footer>
-        <!-- Materialize Compiled and minified JavaScript -->
+        <!-- Materialize Compiled and minified JavaScript 
         <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
-        <!-- https://www.smtpjs.com/ -->
+        <!-- https://www.smtpjs.com/ 
         <script src="https://smtpjs.com/v3/smtp.js"></script>
-        <!-- sweet alert -->
+        <!-- sweet alert 
         <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
-        <!-- Local -->
+        <!-- Local 
         <script src="/js/js.js"></script>
-        <!-- jquery -->
+        <!-- jquery 
         <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
     </body>
 </html>
-<!-- develop -->
+
+-->
 
 
 
 
 
+ -->
