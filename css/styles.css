@@ -37,7 +37,7 @@ header{
 }
 .header--menuSandwitch{
     height: inherit;
-    transform: rotate(-135deg);
+    transform: rotate(-180deg);
 }
 .header--menuSandwitch a {
     height: inherit;
@@ -153,6 +153,7 @@ header{
 .title{
     display: flex;
     flex-direction: column;
+    
 }
 .title h3{
     height: 3vh;
@@ -168,12 +169,14 @@ header{
     width: 95vw;
     display: flex;
     justify-content: center;
+    padding-top: 3vh;
 }
 .card{
     width: 90%;
-    box-shadow:  1px 1px 10px 5px rgba(125,125,125,.5);
+    box-shadow:  1px 1px 5px 5px rgba(125,125,125,.3);
     overflow: hidden;
-    height: 50vh;
+    height: 40vh;
+    margin: 0 3vh;
 }
 .card img{
     width: 100%;
@@ -185,15 +188,26 @@ header{
     overflow: hidden;
 }
 .card--secundario{
-    outline: solid;
+    padding: 3vh 3vw;
+    text-align: center;
 }
-.hideObj{
-    height:0
+.hideCard--principal{
+    height:0;
+    transition: 1s;
 }
 .services--container{
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+.card--secundario__title{
+    font-size: 5vh;
+}
+.card--secundario p{
+    font-size: 2vh; 
+}
+.card--secundario strong{
+    font-size: 3vh; 
 }
 
 

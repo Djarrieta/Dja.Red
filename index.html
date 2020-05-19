@@ -11,11 +11,11 @@
     <!-- css -->
     <link rel="stylesheet" href="./css/styles.css">
 </head>
-<body>
+<body onmousedown="elemento(event)">
     <header>
         <div class="section">
             <div class="header--menuSandwitch">
-                <a id="header--menuSandwitch" href="#"><img class='header--menuSandwitch__img' src="./icon/menu_64px.png" alt=""></a>
+                <a id="header--menuSandwitch" href="#"><img id='MenuSandwitch' class='header--menuSandwitch__img' src="./icon/menu_64px.png" alt=""></a>
             </div>
             <div class="header--menuHorizontal">
                 <lu class="header--lu">
@@ -57,35 +57,24 @@
                 <h3>SERVICIOS</h3>
                 <div class="services--container">
                     <div class="card">
-                        <div id="card1" class="card--principal">
-                            <img src="./img/1.png" alt="">
-                            <p class="card--text">Everything you need for your company. Email, domain, hosting, UX and UI desing and more... Pay per month. </p>
+                        <div id='card--principal1' class="card--principal">
+                            <img id='card--principal__img' class="card--principal__img" src="./img/1.png" alt="">
+                            <p id='card--principal__text' class="card--principal__text">Everything you need for your company. Email, domain, hosting, UX and UI desing and more... Pay per month. </p>
                         </div>
-                        <div id="card1Secundario" class="card--secundario">
+                        <div  class="card--secundario">
                             <span class="card--secundario__title">Web Developing</span>
-                            <p>Don't worrie about what a domain, hosting, branding or UX desing is. You only need to know that Dja.Red is going to do everithing you need until you have an email name@company.com and professional website with 3 changes allowed per month. <br> <br> <strong class="flow-text">Just $100 USD per month.</strong> </p>
+                            <p id='card--secundario__p' >Don't worrie about what a domain, hosting, branding or UX desing is. You only need to know that Dja.Red is going to do everithing you need until you have an email name@company.com and professional website with 3 changes allowed per month. <br> <br> <strong class="flow-text">Just $100 USD per month.</strong> </p>
                             <br> <a target="_blank" href="http://fallprosystem.com.co/">Ex: Fallpro System</a>
                             <br> <a target="_blank" href="https://djarrieta.github.io/Games-Simon-says/">Ex: Dja Games</a>
                         </div>
                     </div>
 
-                    <div class="card">
-                        <div id="card2" class="card--principal">
-                            <img src="./img/1.png" alt="">
-                            <p class="card--text">Everything you need for your company. Email, domain, hosting, UX and UI desing and more... Pay per month. </p>
-                        </div>
-                        <div id="card2Secundario" class="card--secundario">
-                            <span class="card--secundario__title">Web Developing</span>
-                            <p>Don't worrie about what a domain, hosting, branding or UX desing is. You only need to know that Dja.Red is going to do everithing you need until you have an email name@company.com and professional website with 3 changes allowed per month. <br> <br> <strong class="flow-text">Just $100 USD per month.</strong> </p>
-                            <br> <a target="_blank" href="http://fallprosystem.com.co/">Ex: Fallpro System</a>
-                            <br> <a target="_blank" href="https://djarrieta.github.io/Games-Simon-says/">Ex: Dja Games</a>
-                        </div>
-                    </div>
+
                 </div>
             </div>
             
         </div>
-        <a id="floatingButton" class="floatingButton" href="#"><img src="./icon/administrator_male_50px.png" alt=""></a>
+        <a id="floatingButton" class="floatingButton" href="#"><img id='BotonFlotante' src="./icon/administrator_male_50px.png" alt=""></a>
         <div id="menuFlotante" class="menuFlotante">
             <a target='_blank' href="https://www.linkedin.com/in/dario-jose-arrieta-deavila-ba49307b/">
                 <img class='menuFlotante__img' src="./icon/linkedin_60px.png" alt="">
@@ -100,9 +89,9 @@
     </main>
 
  
-<!--     <footer>
+    <footer>
 
-    </footer> -->
+    </footer>
     <!-- Local -->
     <script src="/js/js.js"></script>
 </body>
