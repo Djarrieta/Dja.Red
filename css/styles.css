@@ -1,33 +1,53 @@
 body {
     display: flex;
-    min-height: 100vh;
     flex-direction: column;
     padding: 0;
     margin: 0;
-    background-color: rg b(230, 230, 230);
     font-family: 'Roboto', sans-serif;
-    font-size: 2vh;
-    overflow-x: hidden;
-}
-main{
-    display: flex;
-    flex-direction: column;
-    flex: 1 0 auto;
-    width: 100vw;
-    align-items: center;
+    font-size: 3vw;
 }
 footer{
-    height: 20vh;
+    height: 30vw;
     width: 100vw;
     background-color: black;
-    box-shadow: 0px -5px 5px -4px rgba(89,89,89,1);
+    box-shadow: 0px -5px 5px 0px rgba(89,89,89,.3); 
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    font-size: 3vw;
+}
+.footer--CopyRight{
+    height: 1rem;
+    background-color: rgb(17, 16, 16);
+    color: rgb(179, 179, 179);  
+    padding: 1rem;
+}
+.PrincipalContact{
+    color: rgba(89,89,89,1);
+    display: flex;
+    justify-content: center;
+}
+.PrincipalContact p {
+    height: 1rem;
+    margin:0.5rem;
+}
+.PrincipalContact p img{
+    height: 0.7rem;
+    margin-right: 0.5rem;
+}
+.SecundaryContact{
+    display: inline;
+    text-align: center;
+}
+.SecundaryContact a img{
+
 }
 header{
     height:10vh;
     background-color: black;
     display: flex;
     justify-content: center;
-    box-shadow: 0px 5px 5px -4px rgba(89,89,89,1);
+    box-shadow: 0px 5px 5px 0px rgba(89,89,89,.3);
 }
 .section{
     width: 95%;
@@ -97,7 +117,7 @@ header{
 /*ANIMACION BOTON FLOTANTE*/
     .floatingButton{
         position: fixed;
-        bottom: 5vh;
+        bottom: 0vh;
         right: 10px;
         display: flex;
         z-index: 1;
@@ -113,7 +133,7 @@ header{
         width: 100vw;
         position: fixed;
         background-color: black;
-        bottom: 5vh;
+        bottom: 0vh;
         left: 100vw;
         transition: 0.5s;
         display: flex;
@@ -132,8 +152,10 @@ header{
     }
 /**/
 .hero{
-    padding-top: 1vh;
-    width: 95vw;
+    padding: 1vh 0 0 0;
+    width: 100VW;
+    align-content: center;
+    margin-top: 4vh;
 }
 .hero--img{
     width: 100%;
@@ -143,7 +165,13 @@ header{
     width: 100%;
 }
 .hero--parrafo{
-    width: 100%;
+    width: 90%;
+    margin: 0 5%;
+    font-size: 4vw;
+}
+.Hero-nameDJ{
+    color: rgba(102, 0, 0, 0.9);
+    font-size: 6vw;
 }
 .services{
     padding-top: 1vh;
@@ -152,8 +180,8 @@ header{
 }
 .title{
     display: flex;
-    flex-direction: column;
-    
+    flex-direction: row;
+    align-items: center;
 }
 .title h3{
     height: 3vh;
@@ -161,36 +189,50 @@ header{
     width: 95vw;
 }
 .service--title__decoration{
-    width: .5vw;
+    width: 0.25rem;
+    height: 1rem;
     background-color: rgb(102, 0, 0);
-    margin-right: 1vw;
+    margin: 1vw 0 0 4vw;
 }
 .services--container{
-    width: 95vw;
     display: flex;
     justify-content: center;
-    padding-top: 3vh;
+    padding-top: 1vh;
+    margin-bottom: 5vh;
+}
+h3{
+    padding-left: 3px;
 }
 .card{
     width: 90%;
     box-shadow:  1px 1px 5px 5px rgba(125,125,125,.3);
     overflow: hidden;
-    height: 40vh;
+    height: 65vw;
     margin: 0 3vh;
+    margin-top: 2vh;
 }
 .card img{
     width: 100%;
 }
 .card--principal{
-    height: 50vh;
+    height: 65vw;
     display: block;
     text-align: center;
     overflow: hidden;
 }
-.card--secundario{
-    padding: 3vh 3vw;
-    text-align: center;
+.card--principal__text{
+    padding: 0 0.5rem;
+    font-size: 3vw;
 }
+.card--secundario{
+    height: 65vw;
+    padding: 3vw;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    overflow: visible;
+}
+
 .hideCard--principal{
     height:0;
     transition: 1s;
@@ -201,13 +243,14 @@ header{
     align-items: center;
 }
 .card--secundario__title{
-    font-size: 5vh;
+    font-size: 6vw;
 }
-.card--secundario p{
-    font-size: 2vh; 
-}
+
 .card--secundario strong{
-    font-size: 3vh; 
+    font-size: 5vw; 
+}
+.card--secundario__p{
+    font-size: 4vw;
 }
 
 
