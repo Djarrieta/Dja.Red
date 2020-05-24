@@ -45,5 +45,16 @@ height: 100px;
 blockquote {
     border-left: 5px solid rgb(155,0,0) ;
 }
+.PrincipalContact{
+    display: flex;
+    justify-content: center;
+}
+.PrincipalContact p{
+    margin: 4px;
+}
+.PrincipalContact p img{
+    height: 20px;
+    margin: 1em;
+}
 
 
